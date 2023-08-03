@@ -12,7 +12,7 @@ public class FoodShop {
 
         String pizzaName = "pizza";
         String burgerName = "burger";
-        String sandwichName = "sandwich";
+        String sandwichName = "rice";
 
         list.add(pizzaName);
         list.add(burgerName);
@@ -40,9 +40,9 @@ public class FoodShop {
                     System.out.println("Amount of burger is : " + burgeramt);
                     break;
 
-                case "sandwich":
-                    System.out.println("You have selected the " + "sandwich");
-                    System.out.println("Amount of sandwich is : " + sandwichamt);
+                case "rice":
+                    System.out.println("You have selected the " + "rice");
+                    System.out.println("Amount of rice is : " + sandwichamt);
                     break;
 
                 default:
