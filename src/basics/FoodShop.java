@@ -2,7 +2,7 @@ package basics;
 
 import java.util.*;
 
-public class foodies_1 {
+public class FoodShop {
 
     public static void main(String[] args) {
 

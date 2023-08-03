@@ -1,6 +1,6 @@
 package basics;
 
-public class numbers2 {
+public class NumberExampleOne {
 
     public static void main(String[]args) {
 
