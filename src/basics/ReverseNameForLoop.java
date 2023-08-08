@@ -16,7 +16,6 @@ public class ReverseNameForLoop {
             System.out.print(name.charAt(i) + " ");  // the i + " " which presents the 5 to 0 number . the a[i] which presents the array a[] holding consists .
 
         }
-
-
     }
 }
+

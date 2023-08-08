@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class Foodies {
+public class PizzaShop {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -12,8 +12,9 @@ public class Foodies {
 
         if (name.equalsIgnoreCase("pizza")) {
 
-            System.out.println("Given amt : ");
             double amt = scan.nextDouble();
+            System.out.println("Given amt : " +amt);
+
             double prize = 250;
 
             if (amt <= prize) {

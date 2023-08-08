@@ -40,7 +40,7 @@ public class ForeignFastFood {
                 case "burger":
                     System.out.println("prize : " + burgeramt);
 
-                    int burgerc = scan.nextInt();
+                    int burgerc = scan.nextInt(); // In foreign shop , money is getten first itself , from the customer . then only we show the paid amt .
                     System.out.println("paid amt : " + burgerc);
                     if (burgerc < burgeramt) {
                         System.out.println("Invalid amount");
