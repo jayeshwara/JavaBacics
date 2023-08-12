@@ -2,13 +2,12 @@ package multilevel;
 
 public class ClassOne {
 
-    protected String name ;
-    protected int id ;
-    protected int salary ;
+    private String name ;
+    private int id ;
+    private int salary ;
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
+
 
     public void setName(String name) {
         this.name = name;

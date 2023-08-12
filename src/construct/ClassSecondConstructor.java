@@ -13,3 +13,6 @@ public class ClassSecondConstructor {
 
     }
 }
+ // obj ta create pannura class name syntax laiyae , nammaloda , values sa evvalavu venalum provide pannikilam . 
+
+// because , the l.h.s is obj having . and in r.h.s. we can give n numbers of values .  
