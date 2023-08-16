@@ -6,8 +6,10 @@ public class Shape {
        return area ;
     }
 
-    public int getPerimeter(int perimeter) {
+    public int getPerimeter(int perimeter)
+    {
         return perimeter ;
     }
 
 }
+// the above is not used

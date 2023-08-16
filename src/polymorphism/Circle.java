@@ -2,28 +2,20 @@ package polymorphism;
 
 public class Circle extends Shape {
 
-    @Override
-    public int getArea(int area) {
-        return super.getArea(5);
-    }
 
-    @Override
-    public int getPerimeter(int perimeter) {
-        return super.getPerimeter(7);
-    }
-
-    double pi = 3.14 ;
-    double r ;
-
-    public  double area(double pi,double r) {
+    public double areac(double pi,double r) {
         double area = pi * r * r ;
-          return area ;
+        System.out.println("Area of circle : " +area);
+        return area ;
     }
 
-    public double perimeterc(double pi,double r) {
-           return 2 * pi * r ;
+    public double perimeterc(double pi,double r,double p) {
+        System.out.println("Perimeter of circle : " + p * pi * r);
+        return p * pi * r ;
 
     }
+
+
 
 
 }

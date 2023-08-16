@@ -3,25 +3,26 @@ package polymorphism;
 public class Rectangle extends Circle {
 
     @Override
-    public int getArea(int area) {
-        return super.getArea(7);
+    public double areac(double pi, double r) {
+        return super.areac(3.14, 2);
     }
 
     @Override
-    public int getPerimeter(int perimeter) {
-        return super.getPerimeter(2);
+    public double perimeterc(double pi, double r, double p) {
+        return super.perimeterc(3.14, 4, 5);
     }
 
-    int l  ; int w  ;
 
-    public int area(int l,int w) {
+
+    public int area(int l, int w) {
         System.out.println("Area of rectangle : " + l*w);
         return l*w ;
 
     }
-    public int perimeter(int l,int w) {
-        System.out.println("Perimeter of rectangle : " + l*w);
-        return 2*(l+w) ;
+    public int perimeter(int v,int l,int w) {
+        int d = v*(l+w) ;
+        System.out.println("Perimeter of rectangle : " + d);
+        return d ;
 
     }
 }
