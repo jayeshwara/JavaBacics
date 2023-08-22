@@ -18,7 +18,7 @@ public class CollectionProgram {
         System.out.println("Before removal of duplicate fruit : "+list);
 
         if (list.contains("Grapes")) {
-                list.remove("Grapes");
+                list.remove("Grapes"); // Index no.1 is removed . because , the arraylist follows insertion order
         } else {
             System.out.println("No presence of duplicate");
         }
@@ -27,10 +27,10 @@ public class CollectionProgram {
             System.out.println("After removal of duplicate fruits : "+fruit);
         }
 
-      /*  Iterator it = list.iterator();
+      /*  Iterator iterate = list.iterator();
 
-        while(it.hasNext()) {
-            System.out.println("After removal of duplicate : "+it.next());
+        while(iterate.hasNext()) {
+            System.out.println("After removal of duplicate : "+iterate.next());
         }*/
 
     }
